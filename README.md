@@ -72,7 +72,7 @@ ADMIN_USER_IDS = [0]  # 替换为管理员的Telegram用户ID
 python AirCloud Gemini.py
 ```
 
-# 可用命令
+## 可用命令
 
 - /start - 启动机器人并同意条款和条件
 - /authorize - (仅限管理员) 授权用户使用机器人，通过回复他们的消息
