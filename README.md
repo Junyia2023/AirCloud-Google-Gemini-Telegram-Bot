@@ -59,7 +59,7 @@ ADMIN_USER_IDS = [0]  # 替换为管理员的Telegram用户ID
 
 ### 关于文件输出
 
-在首次运行本脚本时，脚本将会在脚本所在文件目录创建多个文件夹 分别为
+在首次运行本脚本时，脚本将会在脚本所在文件目录创建多个文件 分别为
 - admin_ids.txt #用于记录管理员UID
 - super_admin_ids.txt #用于记录超级管理员UID
 - authorized_users.txt #用于记录被授权用户UID
@@ -72,7 +72,7 @@ ADMIN_USER_IDS = [0]  # 替换为管理员的Telegram用户ID
 python AirCloud Gemini.py
 ```
 
-## 可用命令
+### 可用命令
 
 - /start - 启动机器人并同意条款和条件
 - /authorize - (仅限管理员) 授权用户使用机器人，通过回复他们的消息
